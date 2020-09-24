@@ -1,0 +1,57 @@
+{
+  "name": "sales-global-backend",
+  "version": "1.0.0",
+  "description": "sales global api's in node & mysql",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optionmatrix2002/sales-global-backend.git"
+  },
+  "keywords": [
+    "sales",
+    "global",
+    "sales",
+    "global",
+    "nodejs"
+  ],
+  "author": "lakshman-om",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/optionmatrix2002/sales-global-backend/issues"
+  },
+  "homepage": "https://github.com/optionmatrix2002/sales-global-backend#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "aws-sdk": "^2.458.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "frameguard": "^3.0.0",
+    "helmet": "^3.15.0",
+    "log": "^3.2.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.23.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.4",
+    "nodemailer": "^5.1.1",
+    "path": "^0.12.7",
+    "probe-image-size": "^4.0.0",
+    "sequelize": "^4.42.0",
+    "underscore": "^1.9.1",
+    "validator": "^10.10.0",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.5.1"
+  }
+}
